@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "InputMessage",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "topic1",
+      "subscriptionName": "Sub1",
+      "connection": "ServiceBusConnectionString"
+    }
+  ]
+}
